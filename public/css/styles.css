@@ -1,0 +1,48 @@
+/* Global */
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* Layout */
+/* Components */
+.navbar {
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .logo-input {
+  width: 50%;
+  display: flex;
+}
+.navbar .logo-input .logo {
+  height: 200px;
+  width: 200px;
+}
+.navbar .logo-input .logo .google {
+  background-image: url("../logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 40px 0;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.navbar .logo-input .search {
+  align-self: center;
+  padding-left: 90px;
+}
+.navbar .logo-input .search .fa-solid {
+  border: 1px solid black;
+  padding: 12px;
+}
+.navbar .logo-input .search .input {
+  width: 350px;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,58 @@
+/* Global */
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* Layout */
+
+/* Components */
+
+.navbar {
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+
+  .logo-input {
+    width: 50%;
+    display: flex;
+
+    .logo {
+      height: 200px;
+      width: 200px;
+
+      .google {
+        background-image: url("../logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        padding: 40px 0;
+        margin-top: 40px;
+        margin-left: 40px;
+      }
+    }
+    .search {
+      align-self: center;
+      padding-left: 90px;
+      //   border: 1px solid black;
+      //   border-radius: 15%;
+      .fa-solid {
+        border: 1px solid black;
+        padding: 12px;
+      }
+      .input {
+        width: 350px;
+      }
+    }
+  }
+
+  .nav {
+  }
+}
